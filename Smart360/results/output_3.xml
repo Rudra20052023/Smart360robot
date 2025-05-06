@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.11.0 on win32)" generated="2025-01-28T10:56:25.540655" rpa="false" schemaversion="5">
+<suite id="s1" name="03 Test Addpaymentsubtypetest" source="C:\Prashant\Smart360robot\Smart360\TestCases\03_test_addpaymentsubtypetest.robot">
+<test id="s1-t1" name="Add Payment Subtype" line="8">
+<kw name="Open My Browser" owner="Loginkeywords">
+<kw name="Open Browser">
+<msg time="2025-01-28T10:56:25.573002" level="FAIL">No keyword with name 'Open Browser' found. Did you mean:
+    Loginkeywords.Open My Browser</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<arg>executable_path=${EXECUTABLE_PATH}</arg>
+<status status="FAIL" start="2025-01-28T10:56:25.573002" elapsed="0.000000">No keyword with name 'Open Browser' found. Did you mean:
+    Loginkeywords.Open My Browser</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2025-01-28T10:56:25.573002" elapsed="0.000000"/>
+</kw>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<arg>${EXECUTABLE_PATH}</arg>
+<status status="FAIL" start="2025-01-28T10:56:25.571697" elapsed="0.001305">No keyword with name 'Open Browser' found. Did you mean:
+    Loginkeywords.Open My Browser</status>
+</kw>
+<kw name="Enter Username" owner="Loginkeywords">
+<arg>${USERNAME}</arg>
+<status status="NOT RUN" start="2025-01-28T10:56:25.574018" elapsed="0.000000"/>
+</kw>
+<kw name="Enter Password" owner="Loginkeywords">
+<arg>${PASSWORD}</arg>
+<status status="NOT RUN" start="2025-01-28T10:56:25.574018" elapsed="0.000000"/>
+</kw>
+<kw name="Click Sign In" owner="Loginkeywords">
+<status status="NOT RUN" start="2025-01-28T10:56:25.574018" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-01-28T10:56:25.574018" elapsed="0.000000"/>
+</kw>
+<kw name="Go To">
+<arg>${addpaytypeURL}</arg>
+<status status="NOT RUN" start="2025-01-28T10:56:25.574018" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-01-28T10:56:25.574018" elapsed="0.000000"/>
+</kw>
+<kw name="Click Subtype Button" owner="Loginkeywords">
+<status status="NOT RUN" start="2025-01-28T10:56:25.575017" elapsed="0.000000"/>
+</kw>
+<kw name="Click Add Subtype Form" owner="Loginkeywords">
+<status status="NOT RUN" start="2025-01-28T10:56:25.575017" elapsed="0.000000"/>
+</kw>
+<kw name="Click dropdown" owner="Loginkeywords">
+<status status="NOT RUN" start="2025-01-28T10:56:25.575017" elapsed="0.000000"/>
+</kw>
+<kw name="Select Type From Dropdown" owner="Loginkeywords">
+<arg>1</arg>
+<status status="NOT RUN" start="2025-01-28T10:56:25.575490" elapsed="0.000000"/>
+</kw>
+<kw name="Enter Subtype" owner="Loginkeywords">
+<arg>Registration fees</arg>
+<status status="NOT RUN" start="2025-01-28T10:56:25.575490" elapsed="0.000000"/>
+</kw>
+<kw name="Click Subtype Submit" owner="Loginkeywords">
+<status status="NOT RUN" start="2025-01-28T10:56:25.575490" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-01-28T10:56:25.569881" elapsed="0.005609">No keyword with name 'Open Browser' found. Did you mean:
+    Loginkeywords.Open My Browser</status>
+</test>
+<status status="FAIL" start="2025-01-28T10:56:25.542245" elapsed="0.034305"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="03 Test Addpaymentsubtypetest" id="s1" pass="0" fail="1" skip="0">03 Test Addpaymentsubtypetest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-01-28T10:56:25.559881" level="ERROR">Error in file 'C:\Prashant\Smart360robot\Smart360\TestCases\03_test_addpaymentsubtypetest.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Prashant\Smart360robot\.venv\Scripts\robot.exe
+  C:\Users\User\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\User\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\User\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\User\AppData\Local\Programs\Python\Python311
+  C:\Prashant\Smart360robot\.venv
+  C:\Prashant\Smart360robot\.venv\Lib\site-packages</msg>
+<msg time="2025-01-28T10:56:25.565886" level="ERROR">Error in file 'C:\Prashant\Smart360robot\Smart360\Resources\Loginkeywords.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Prashant\Smart360robot\.venv\Scripts\robot.exe
+  C:\Users\User\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\User\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\User\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\User\AppData\Local\Programs\Python\Python311
+  C:\Prashant\Smart360robot\.venv
+  C:\Prashant\Smart360robot\.venv\Lib\site-packages</msg>
+</errors>
+</robot>

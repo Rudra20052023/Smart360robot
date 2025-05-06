@@ -1,0 +1,33 @@
+1736074413203	geckodriver	INFO	Listening on 127.0.0.1:61105
+1736074415909	mozrunner::runner	INFO	Running command: "C:\\Users\\admin\\.cache\\selenium\\firefox\\win64\\133.0.3\\firefox.exe" "--marionette" "--remote-debuggin ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofiletGDP4O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736074430898	Marionette	INFO	Marionette enabled
+1736074434571	Marionette	INFO	Listening on port 61142
+Read port: 61142
+WebDriver BiDi listening on ws://127.0.0.1:61106
+Read port: 61142
+Read port: 61142
+1736074439839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderThread::InitDeviceTask is slow: 9851
+[GFX1-]: Killing GPU process due to IPC reply timeout
+[GFX1-]: NewRenderer::Run is slow: 45773
+[[GFX1GFX1-]: Co-]: CommpositopositorrBriBriddgeChild recegeChives IPild recC cleives Iose PC closwithe with re reaason=Abson=AbnnormormalShalShuutdown
+tdown
+[Parent 6812, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:350
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: Killing GPU process due to IPC reply timeout
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[Parent 6812, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:350
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 238))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 238))
+[GFX1-]: NewRenderer::Run is slow: 4648
+1736074679257	Marionette	INFO	Stopped listening on port 61142
+Dynamically enable window occlusion 1
+1736074680580	CDP	WARN	Failed to remove undefined (Could not remove `undefined': could not parse path (NS_ERROR_FILE_UNRECOGNIZED_PATH))
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown

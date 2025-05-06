@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.11.0 on win32)" generated="2025-01-28T10:56:25.128590" rpa="false" schemaversion="5">
+<suite id="s1" name="02 Test Addpaymenttypetest" source="C:\Prashant\Smart360robot\Smart360\TestCases\02_test_addpaymenttypetest.robot">
+<test id="s1-t1" name="Add Payment Type" line="8">
+<kw name="Open My Browser" owner="Loginkeywords">
+<kw name="Open Browser">
+<msg time="2025-01-28T10:56:25.159131" level="FAIL">No keyword with name 'Open Browser' found. Did you mean:
+    Loginkeywords.Open My Browser</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<arg>executable_path=${EXECUTABLE_PATH}</arg>
+<status status="FAIL" start="2025-01-28T10:56:25.158137" elapsed="0.000994">No keyword with name 'Open Browser' found. Did you mean:
+    Loginkeywords.Open My Browser</status>
+</kw>
+<kw name="Maximize Browser Window">
+<status status="NOT RUN" start="2025-01-28T10:56:25.159131" elapsed="0.000000"/>
+</kw>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<arg>${EXECUTABLE_PATH}</arg>
+<status status="FAIL" start="2025-01-28T10:56:25.157133" elapsed="0.001998">No keyword with name 'Open Browser' found. Did you mean:
+    Loginkeywords.Open My Browser</status>
+</kw>
+<kw name="Enter Username" owner="Loginkeywords">
+<arg>${USERNAME}</arg>
+<status status="NOT RUN" start="2025-01-28T10:56:25.159131" elapsed="0.000000"/>
+</kw>
+<kw name="Enter Password" owner="Loginkeywords">
+<arg>${PASSWORD}</arg>
+<status status="NOT RUN" start="2025-01-28T10:56:25.159131" elapsed="0.000000"/>
+</kw>
+<kw name="Click Sign In" owner="Loginkeywords">
+<status status="NOT RUN" start="2025-01-28T10:56:25.159131" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-01-28T10:56:25.160133" elapsed="0.000000"/>
+</kw>
+<kw name="Go To">
+<arg>${addpaytypeURL}</arg>
+<status status="NOT RUN" start="2025-01-28T10:56:25.160133" elapsed="0.000000"/>
+</kw>
+<kw name="Click Add type button" owner="Loginkeywords">
+<status status="NOT RUN" start="2025-01-28T10:56:25.160476" elapsed="0.000000"/>
+</kw>
+<kw name="Add PaymentType" owner="Loginkeywords">
+<arg>fees</arg>
+<status status="NOT RUN" start="2025-01-28T10:56:25.160606" elapsed="0.000000"/>
+</kw>
+<kw name="Click Submit" owner="Loginkeywords">
+<status status="NOT RUN" start="2025-01-28T10:56:25.160606" elapsed="0.000000"/>
+</kw>
+<tag>Regression</tag>
+<status status="FAIL" start="2025-01-28T10:56:25.157133" elapsed="0.003473">No keyword with name 'Open Browser' found. Did you mean:
+    Loginkeywords.Open My Browser</status>
+</test>
+<status status="FAIL" start="2025-01-28T10:56:25.129657" elapsed="0.030949"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Regression</stat>
+</tag>
+<suite>
+<stat name="02 Test Addpaymenttypetest" id="s1" pass="0" fail="1" skip="0">02 Test Addpaymenttypetest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-01-28T10:56:25.146907" level="ERROR">Error in file 'C:\Prashant\Smart360robot\Smart360\TestCases\02_test_addpaymenttypetest.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Prashant\Smart360robot\.venv\Scripts\robot.exe
+  C:\Users\User\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\User\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\User\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\User\AppData\Local\Programs\Python\Python311
+  C:\Prashant\Smart360robot\.venv
+  C:\Prashant\Smart360robot\.venv\Lib\site-packages</msg>
+<msg time="2025-01-28T10:56:25.152909" level="ERROR">Error in file 'C:\Prashant\Smart360robot\Smart360\Resources\Loginkeywords.robot' on line 2: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Prashant\Smart360robot\.venv\Scripts\robot.exe
+  C:\Users\User\AppData\Local\Programs\Python\Python311\python311.zip
+  C:\Users\User\AppData\Local\Programs\Python\Python311\DLLs
+  C:\Users\User\AppData\Local\Programs\Python\Python311\Lib
+  C:\Users\User\AppData\Local\Programs\Python\Python311
+  C:\Prashant\Smart360robot\.venv
+  C:\Prashant\Smart360robot\.venv\Lib\site-packages</msg>
+</errors>
+</robot>
